@@ -1,0 +1,60 @@
+.widget {
+	&-title {
+		font-size: 18px;
+		line-height: 1.2;
+		margin: 0 0 1em 0;
+
+		@include media-breakpoint-up(lg) {
+			font-size: 25px;
+		}
+	}
+	& + .widget {
+		margin-top: 1em;
+	}
+	.sidebar & {
+		margin-top: 1.5em;
+		padding-top: 3em;
+		border-top: 1px solid $color__border-input;
+
+		@include media-breakpoint-up(md) {
+			margin-top: 3em;
+			padding-top: 3em;
+		}
+
+		&.widget-subscribe,
+		&.widget-about {
+			padding-top: 0;
+			border-top: none;
+		}
+	}
+	.sidebar &:last-child {
+		.widget-area & {
+			margin-bottom: 1em;
+
+			@include media-breakpoint-up(md) {
+				margin-bottom: 2em;
+			}
+		}
+	}
+	select {
+		max-width: 100%;
+	}
+}
+#sidebar .widget:first-child {
+	margin-top: 0;
+}
+
+.blog #sidebar .widget,
+#sidebar .follow-block {
+	margin-top: 3em;
+}
+
+.widget_text{
+	.social-list__items{
+		margin-top: 20px;
+	}
+	p{
+		margin-bottom: 3px;
+	}
+}
+

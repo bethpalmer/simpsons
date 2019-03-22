@@ -1,0 +1,132 @@
+/* #Button Appearance Styles (regular scheme) */
+.btn-primary,
+.btn-secondary,
+.btn-primary:hover,
+.btn-secondary:hover,
+#tm_builder_outer_content .tm_pb_button,
+#tm_builder_outer_content .tm_pb_button:hover,
+#tm_builder_outer_content .tm_pb_promo a.tm_pb_promo_button {
+	color: $invert_text_color;
+}
+
+.btn-primary,
+.btn-secondary,
+#tm_builder_outer_content .tm_pb_button {
+	font-family: $breadcrumbs_font_family;
+	font-weight: $breadcrumbs_font_weight;
+	font-style: $breadcrumbs_font_style;
+}
+
+
+.btn-primary,
+.comment-form .btn-primary,
+#tm_builder_outer_content a.tm_pb_button,
+#tm_builder_outer_content .tm_pb_button.btn-primary,
+#tm_builder_outer_content button.tm_pb_button {
+	color: $invert_text_color;
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+
+.btn-primary:hover,
+.comment-form .btn-primary:hover,
+#tm_builder_outer_content a.tm_pb_button:hover,
+#tm_builder_outer_content button.tm_pb_button:hover,
+#tm_builder_outer_content .tm_pb_button.btn-primary:hover,
+.more-link.btn.btn-primary:hover {
+	color: $invert_text_color;
+	background-color: $invert_accent_color_1;
+	border-color: $invert_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_contact_bottom_container.tm_pb_contact_submit.tm_pb_button {
+	color: $invert_text_color;
+	background-color: $regular_accent_color_1;
+}
+
+.btn-primary:focus,
+.comment-form .btn-primary:focus,
+#tm_builder_outer_content .tm_pb_button.btn-primary:focus {
+	background-color: $regular_accent_color_2;
+	border-color: $regular_accent_color_2;
+}
+.btn-secondary,
+#tm_builder_outer_content .tm_pb_button.btn-secondary {
+	color: $invert_text_color;
+	border-color: $invert_text_color;
+}
+.btn-secondary:hover,
+#tm_builder_outer_content .tm_pb_button.btn-secondary:hover {
+	color: $regular_accent_color_1;
+	border-color: $invert_accent_color_1;
+}
+.btn-secondary:focus,
+#tm_builder_outer_content .tm_pb_button.btn-secondary:focus {
+	color: $regular_accent_color_1;
+	border-color: $invert_accent_color_1;
+}
+
+/* #Button Appearance Styles (invert scheme) */
+
+.invert .btn-primary,
+#tm_builder_outer_content .invert a.tm_pb_button,
+#tm_builder_outer_content .invert .tm_pb_button.btn-primary,
+#tm_builder_outer_content .invert .tm_pb_contact_submit.tm_pb_button,
+.tm-hb__wrapper .btn-primary {
+	color: $invert_text_color;
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+.invert .btn-primary:hover,
+.tm-hb__wrapper .btn-primary:hover,
+#tm_builder_outer_content .invert a.tm_pb_button:hover,
+#tm_builder_outer_content .invert .tm_pb_contact_submit.tm_pb_button:hover,
+#tm_builder_outer_content .invert .tm_pb_button.btn-primary:hover {
+	color: $regular_accent_color_2;
+	background-color: $invert_text_color;
+	border-color: $invert_text_color;
+}
+#tm_builder_outer_content .tm_pb_promo_button.tm_pb_button,
+#tm_builder_outer_content .tm_pb_post_slider .tm_pb_button:hover,
+#tm_builder_outer_content .tm_pb_slide .tm_pb_button:hover,
+#tm_builder_outer_content .tm_pb_button.btn.btn-primary.invert,
+#tm_builder_outer_content .tm_pb_contact_submit.tm_pb_button.invert,
+#tm_builder_outer_content .tm_pb_promo_button.tm_pb_button,
+#tm_builder_outer_content .tm_pb_button.btn.btn-primary.invert:hover{
+	color: $invert_text_color;
+	background-color: $invert_accent_color_1;
+	border-color: $invert_accent_color_1;
+}
+
+#tm_builder_outer_content a.tm_pb_promo_button.tm_pb_button:hover,
+.subscribe-block.invert .btn-primary:hover{
+	color: $invert_text_color;
+	background-color: $invert_accent_color_1;
+	border-color: $invert_accent_color_1;
+}
+
+.search-form__submit:hover {
+	background-color: $regular_text_color;
+}
+.search-form__submit i:hover {
+	color: $invert_text_color;
+}
+
+.btn-secondary,
+#tm_builder_outer_content .invert .tm_pb_button.btn-secondary {
+	color: $invert_text_color;
+	border-color: $invert_text_color;
+}
+.btn-secondary:hover,
+#tm_builder_outer_content .invert .tm_pb_button.btn-secondary:hover {
+	color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_post .btn-primary {
+	color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_post .btn-primary:hover {
+	color: $regular_accent_color_2;
+}

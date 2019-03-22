@@ -1,0 +1,121 @@
+#tm_builder_outer_content {
+	.tm_pb_blurb {
+		margin-bottom: 40px;
+		@media (min-width: 768px) {
+			margin-bottom: 0;
+		}
+		div.tm_pb_main_blurb_image {
+			margin-bottom: 10px;
+			@include media-breakpoint-up(lg) {
+				margin-bottom: 15px;
+			}
+		}
+		.tm_pb_blurb_container {
+			h4 {
+				margin-bottom: 5px;
+				@media (min-width: 1200px) {
+					margin-bottom: 16px;
+				}
+				a {
+					font-size: inherit;
+				}
+			}
+		}
+		.tm_pb_blurb_content {
+			max-width: none;
+			font-weight: bold;
+		}
+
+		&.tm_pb_blurb_position_left {
+			text-align: left;
+			.tm_pb_main_blurb_image {
+				width: 100%;
+				display: block;
+				text-align: left;
+				margin: 0 auto 15px;
+				img {
+					width: auto;
+				}
+
+				.tm-pb-icon:not(.tm-pb-icon-circle) {
+					width: 60px;
+					height: 60px;
+					display: inline-block;
+					line-height: 55px;
+					text-align: center;
+					@include font-size(2.125);
+					border-radius: 3px;
+					position: relative;
+					&:after {
+						content: '';
+						display: inline-block;
+						width: 0;
+						height: 0;
+						border-style: solid;
+						position: absolute;
+						top: 100%;
+						left: 50%;
+						border-width: 10px 10px 0 10px;
+						transform: translateX(-50%);
+					}
+					@include media-breakpoint-up(xl) {
+						&:after {
+							border-width: 10px 0 10px 10px;
+							left: 100%;
+							top: 50%;
+							transform: translateY(-50%);
+						}
+					}
+				}
+				@include media-breakpoint-up(xl) {
+					width: auto;
+					display: table-cell;
+				}
+			}
+			.tm_pb_blurb_container {
+				padding-left: 0;
+				@include media-breakpoint-up(xl) {
+					padding-left: 42px;
+				}
+				*:first-child {
+					margin-top: 16px;
+				}
+			}
+		}
+		&.tm_pb_blurb_position_top {
+			text-align: center;
+			@include media-breakpoint-up(xl) {
+				text-align: inherit;
+			}
+			.tm_pb_main_blurb_image {
+				display: inline-block;
+				margin: 0 auto 15px;
+				img {
+					width: auto;
+				}
+
+				.tm-pb-icon {
+					width: 60px;
+					height: 60px;
+					display: inline-block;
+					line-height: 55px;
+					@include font-size(2.125);
+					border-radius: 3px;
+					position: relative;
+					&:after {
+						content: '';
+						display: inline-block;
+						width: 0;
+						height: 0;
+						border-style: solid;
+						position: absolute;
+						border-width: 10px 10px 0 10px;
+						top: 100%;
+						left: 50%;
+						transform: translateX(-50%);
+					}
+				}
+			}
+		}
+	}
+}

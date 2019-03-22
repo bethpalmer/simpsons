@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+blockquote, q {
+	quotes: none;
+
+	&:before,
+	&:after {
+		content: '';
+		clear: both;
+    display: table;
+	}
+}
+
+blockquote {
+	position: relative;
+	margin: -20px 0 1em;
+	padding: 24px 1.5em 0 57px;
+	text-align: center;
+	@include media-breakpoint-up(lg) {
+		margin: 0 0 1em;
+		text-align: left;
+	}
+	p {
+		margin: 0;
+		text-align: left;
+		&:first-child {
+			margin-top: -20px;
+			@include media-breakpoint-up(lg){
+				margin-top: 0;
+			}
+		}
+
+		& + p {
+			margin-top: 1em;
+		}
+	}
+	cite {
+		display: block;
+		position: relative;
+		padding-left: 25px;
+		margin-top: 16px;
+		font-size: 13px;
+		text-align: left;
+		@include media-breakpoint-up(lg){
+			@include font-size(1);
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			top: 13px;
+			left: 0;
+			width: 18px;
+			height: 1px;
+		}
+	}
+	&:before {
+		content: '\e244';
+		font-family: "Material Icons";
+		font-size: 4em;
+		line-height: 1;
+		margin-left: -12px;
+
+		@include media-breakpoint-up(lg) {
+			margin-left: 0;
+			position: absolute;
+			font-size: 60px;
+			top: 14px;
+			left: -10px;
+		}
+	}
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin: 4em 0;
+}
+
+code {
+	border: none;
+}
+
+
+a {
+	transition: .3s all ease;
+}
+/*--------------------------------------------------------------
+## Lists
+--------------------------------------------------------------*/
+@import "lists";
+
+/*--------------------------------------------------------------
+## Tables
+--------------------------------------------------------------*/
+@import "tables";
+
+/*--------------------------------------------------------------
+## Preloader
+--------------------------------------------------------------*/
+@import "page-preloader";
+
+/*--------------------------------------------------------------
+## ToTop button
+--------------------------------------------------------------*/
+@import "totop-button";

@@ -1,0 +1,272 @@
+0000.000 (0) Opened log file at time: Fri, 13 Oct 2017 10:13:50 +0000 on http://localhost:8888/simpsons
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.13.7.0 WP: 4.8.2 PHP: 7.1.6 (apache2handler, Darwin MacBook-Pro.local 15.6.0 Darwin Kernel Version 15.6.0: Sun Jun  4 21:43:07 PDT 2017; root:xnu-3248.70.3~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_GB Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.6 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 35.9M | 20M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 15108.7 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.009 (0) Semaphore (fd, wp_options) being initialised
+0000.018 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.022 (0) Set semaphore last lock (fd) time to 2017-10-13 10:13:50
+0000.023 (0) Semaphore lock (fd) complete
+0000.029 (0) Backup run: resumption=0, nonce=d181a6791af1, begun at=1507889630 (0s ago), job type=backup
+0000.031 (0) Scheduling a resumption (1) after 300 seconds (1507889930) in case this run gets aborted
+0000.046 (0) Checking if we have a zip executable available
+0000.047 (0) Testing: /usr/bin/zip
+0000.054 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.055 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.056 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.058 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.059 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.066 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.068 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.078 (0) Working binary zip found: /usr/bin/zip
+0000.080 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.082 (0) Creation of backups of directories: beginning
+0000.086 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.178 (0) Total entities for the zip file: 787 directories, 2680 files (0 skipped as non-modified), 30.4 MB
+0000.182 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.186 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.190 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.194 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.197 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.199 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 2680 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.460 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: size is now: 1.80 MB
+0000.465 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 600 files added (on-disk size: 1829.6 KB)
+0000.470 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 700 files added (on-disk size: 1829.6 KB)
+0000.473 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 800 files added (on-disk size: 1829.6 KB)
+0000.477 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 900 files added (on-disk size: 1829.6 KB)
+0000.480 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1000 files added (on-disk size: 1829.6 KB)
+0000.482 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.5 MB, 2680 files batched, 501 (1002) added so far); re-opening (prior size: 1829.6 KB)
+0000.907 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: size is now: 6.80 MB
+0000.914 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1100 files added (on-disk size: 6957.6 KB)
+0000.918 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1200 files added (on-disk size: 6957.6 KB)
+0000.922 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1300 files added (on-disk size: 6957.6 KB)
+0000.926 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1400 files added (on-disk size: 6957.6 KB)
+0000.929 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1500 files added (on-disk size: 6957.6 KB)
+0000.931 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.1 MB, 2680 files batched, 501 (1503) added so far); re-opening (prior size: 6957.6 KB)
+0001.399 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: size is now: 9.20 MB
+0001.405 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1600 files added (on-disk size: 9451 KB)
+0001.411 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1700 files added (on-disk size: 9451 KB)
+0001.416 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1800 files added (on-disk size: 9451 KB)
+0001.420 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 1900 files added (on-disk size: 9451 KB)
+0001.424 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 2000 files added (on-disk size: 9451 KB)
+0001.426 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 2680 files batched, 501 (2004) added so far); re-opening (prior size: 9451 KB)
+0001.683 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 2100 files added (on-disk size: 10289.9 KB)
+0001.687 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 2200 files added (on-disk size: 10289.9 KB)
+0001.698 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 2300 files added (on-disk size: 10289.9 KB)
+0001.702 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 2400 files added (on-disk size: 10289.9 KB)
+0001.706 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 2500 files added (on-disk size: 10289.9 KB)
+0001.707 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 2680 files batched, 501 (2505) added so far); re-opening (prior size: 10289.9 KB)
+0001.964 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip.tmp: 2600 files added (on-disk size: 11215 KB)
+0002.402 (0) Created plugins zip (0) - 11514.6 KB in 2.3 s (4975.9 KB/s) (sha1: 9f0678ba8ed2e084046d3db3892cc8ca208c2234, sha256: b2c6068718c348a141c97f60e51fdc2e16287e660770b299968ffe9c6d0ea7c2)
+0002.406 (0) Beginning creation of dump of themes (split every: 400 MB)
+0002.469 (0) Total entities for the zip file: 303 directories, 1258 files (0 skipped as non-modified), 23.1 MB
+0002.473 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.478 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.482 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.486 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.490 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.493 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.3 MB, 1258 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.957 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: size is now: 3.30 MB
+0002.964 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 600 files added (on-disk size: 3406.8 KB)
+0002.968 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 700 files added (on-disk size: 3406.8 KB)
+0002.972 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 800 files added (on-disk size: 3406.8 KB)
+0002.975 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 900 files added (on-disk size: 3406.8 KB)
+0002.979 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 1000 files added (on-disk size: 3406.8 KB)
+0002.980 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.7 MB, 1258 files batched, 501 (1002) added so far); re-opening (prior size: 3406.8 KB)
+0003.413 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: size is now: 10.40 MB
+0003.421 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 1100 files added (on-disk size: 10683.5 KB)
+0003.428 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: 1200 files added (on-disk size: 10683.5 KB)
+0003.651 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip.tmp: size is now: 13.30 MB
+0004.012 (0) Created themes zip (0) - 13616.8 KB in 1.6 s (8491.8 KB/s) (sha1: 1ad8dcc296db901c4cceb531bc340b91732732cc, sha256: afa488317a1e6e89c2b72edb066b1f61d14ae2baba8f7b33f26049f5ed536344)
+0004.016 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.017 (0) Looking for candidates to back up in: /Users/Beth/Sites/wordpress/simpsons/wp-content/uploads
+0004.018 (0) finding files: 2016: adding to list (1)
+0004.019 (0) finding files: 2017: adding to list (2)
+0004.020 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.047 (0) Total entities for the zip file: 8 directories, 1037 files (0 skipped as non-modified), 25.7 MB
+0004.051 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.055 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.058 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.064 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.069 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.071 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 1037 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.231 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: size is now: 8.50 MB
+0004.238 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 600 files added (on-disk size: 8750 KB)
+0004.242 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 700 files added (on-disk size: 8750 KB)
+0004.246 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 800 files added (on-disk size: 8750 KB)
+0004.249 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 900 files added (on-disk size: 8750 KB)
+0004.253 (0) Zip: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: 1000 files added (on-disk size: 8750 KB)
+0004.254 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.4 MB, 1037 files batched, 501 (1002) added so far); re-opening (prior size: 8750 KB)
+0004.501 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: size is now: 21.00 MB
+0004.698 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip.tmp: size is now: 25.90 MB
+0005.430 (0) Created uploads zip (0) - 26486.4 KB in 1.4 s (18809.9 KB/s) (sha1: efa0e5dd22b46a574b163bd5c186baf0d3cf8e38, sha256: 632c9c7c054157aa9753eea6ad717ae31eb2dd57b2d3f91d0da6e7137d2c8287)
+0005.434 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.435 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.436 (0) Looking for candidates to back up in: /Users/Beth/Sites/wordpress/simpsons/wp-content
+0005.437 (0) finding files: index.php: adding to list (1)
+0005.438 (0) finding files: languages: adding to list (2)
+0005.439 (0) finding files: plugins: skipping: this is the plugins directory
+0005.440 (0) finding files: themes: skipping: this is the themes directory
+0005.441 (0) finding files: updraft: skipping: this is the updraft directory
+0005.442 (0) finding files: upgrade: skipping: excluded by options
+0005.443 (0) finding files: uploads: skipping: this is the uploads directory
+0005.447 (0) Total entities for the zip file: 3 directories, 27 files (0 skipped as non-modified), 2 MB
+0005.557 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-others.zip.tmp: size is now: 0.50 MB
+0005.576 (0) Created others zip (0) - 502.7 KB in 0.1 s (3849.2 KB/s) (sha1: 269da480476608d1d8b9d5bbb167080897a86d06, sha256: 253b7fb82ea2c765c04711490ca381e9deca583dcacbc12c9c88c91060d43678)
+0005.582 (0) Saving backup status to database (elements: 8)
+0005.585 (0) Beginning creation of database dump (WordPress DB)
+0005.597 (0) Table wp_options: Total expected rows (approximate): 201
+0005.667 (0) Table wp_options: Total rows added: 203 in 0.07 seconds
+0005.669 (0) Table wp_options: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_options.table.gz - 202.6 KB)
+0005.675 (0) Table wp_users: Total expected rows (approximate): 1
+0005.678 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0005.680 (0) Table wp_users: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_users.table.gz - 0.6 KB)
+0005.685 (0) Table wp_usermeta: Total expected rows (approximate): 21
+0005.688 (0) Table wp_usermeta: Total rows added: 23 in 0.00 seconds
+0005.690 (0) Table wp_usermeta: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_usermeta.table.gz - 1.2 KB)
+0005.697 (0) Table wp_commentmeta: Total expected rows (approximate): 10
+0005.701 (0) Table wp_commentmeta: Total rows added: 10 in 0.00 seconds
+0005.702 (0) Table wp_commentmeta: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_commentmeta.table.gz - 0.5 KB)
+0005.708 (0) Table wp_comments: Total expected rows (approximate): 5
+0005.712 (0) Table wp_comments: Total rows added: 5 in 0.00 seconds
+0005.713 (0) Table wp_comments: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_comments.table.gz - 1.1 KB)
+0005.721 (0) Table wp_links: Total expected rows (approximate): 0
+0005.724 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0005.725 (0) Table wp_links: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_links.table.gz - 0.4 KB)
+0005.731 (0) Table wp_postmeta: Total expected rows (approximate): 1479
+0005.761 (0) Table wp_postmeta: Total rows added: 1441 in 0.03 seconds
+0005.763 (0) Table wp_postmeta: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_postmeta.table.gz - 25.2 KB)
+0005.768 (0) Table wp_posts: Total expected rows (approximate): 266
+0005.886 (0) Table wp_posts: Total rows added: 367 in 0.12 seconds
+0005.888 (0) Table wp_posts: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_posts.table.gz - 112.7 KB)
+0005.894 (0) Table wp_term_relationships: Total expected rows (approximate): 170
+0005.899 (0) Table wp_term_relationships: Total rows added: 180 in 0.00 seconds
+0005.900 (0) Table wp_term_relationships: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_term_relationships.table.gz - 0.9 KB)
+0005.906 (0) Table wp_term_taxonomy: Total expected rows (approximate): 35
+0005.910 (0) Table wp_term_taxonomy: Total rows added: 43 in 0.00 seconds
+0005.911 (0) Table wp_term_taxonomy: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_term_taxonomy.table.gz - 0.7 KB)
+0005.917 (0) Table wp_termmeta: Total expected rows (approximate): 6
+0005.921 (0) Table wp_termmeta: Total rows added: 6 in 0.00 seconds
+0005.922 (0) Table wp_termmeta: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_termmeta.table.gz - 0.4 KB)
+0005.928 (0) Table wp_terms: Total expected rows (approximate): 35
+0005.932 (0) Table wp_terms: Total rows added: 43 in 0.00 seconds
+0005.934 (0) Table wp_terms: finishing file (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_terms.table.gz - 1 KB)
+0005.939 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_options.table.gz (1/12): adding to final database dump
+0006.003 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_users.table.gz (2/12): adding to final database dump
+0006.005 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0006.007 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0006.009 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0006.010 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_links.table.gz (6/12): adding to final database dump
+0006.011 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0006.026 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0006.112 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0006.115 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0006.116 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0006.117 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0006.119 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db.gz: finished writing out complete database file (320 KB)
+0006.141 (0) Total database tables backed up: 12 (backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db.gz, size: 354167, sha256)
+0006.153 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.154 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.155 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.157 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.158 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.160 (0) Saving backup history. Total backup size: 51.2 MB
+0006.168 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.174 (0) Cloud backup selection (1/1): googledrive (last)
+0006.176 (0) Beginning dispatch of backup to remote (googledrive)
+0008.107 (0) Google Drive quota usage: used=1729.3 MB, total=15360 MB, available=13630.7 MB
+0008.110 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0009.425 (0) Googledrive chunked upload: 8.9 % uploaded (1048576)
+0010.414 (0) Googledrive chunked upload: 17.8 % uploaded (2097152)
+0011.354 (0) Googledrive chunked upload: 26.7 % uploaded (3145728)
+0012.335 (0) Googledrive chunked upload: 35.6 % uploaded (4194304)
+0013.318 (0) Googledrive chunked upload: 44.5 % uploaded (5242880)
+0014.362 (0) Googledrive chunked upload: 53.4 % uploaded (6291456)
+0015.300 (0) Googledrive chunked upload: 62.3 % uploaded (7340032)
+0016.297 (0) Googledrive chunked upload: 71.1 % uploaded (8388608)
+0017.293 (0) Googledrive chunked upload: 80 % uploaded (9437184)
+0018.340 (0) Googledrive chunked upload: 88.9 % uploaded (10485760)
+0019.335 (0) Googledrive chunked upload: 97.8 % uploaded (11534336)
+0020.366 (0) Googledrive chunked upload: 100 % uploaded (11534336)
+0020.372 (0) OK: Archive backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip uploaded to Google Drive in 12.26 seconds
+0020.376 (0) Recording as successfully uploaded: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip (2cfa2d42dc5d388e1c7964630e566c4d)
+0020.385 (0) Deleting local file: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-plugins.zip: OK
+0020.791 (0) Google Drive quota usage: used=1740.6 MB, total=15360 MB, available=13619.4 MB
+0020.793 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0022.088 (0) Googledrive chunked upload: 7.5 % uploaded (1048576)
+0023.047 (0) Googledrive chunked upload: 15 % uploaded (2097152)
+0023.966 (0) Googledrive chunked upload: 22.6 % uploaded (3145728)
+0024.943 (0) Googledrive chunked upload: 30.1 % uploaded (4194304)
+0025.885 (0) Googledrive chunked upload: 37.6 % uploaded (5242880)
+0026.847 (0) Googledrive chunked upload: 45.1 % uploaded (6291456)
+0027.817 (0) Googledrive chunked upload: 52.6 % uploaded (7340032)
+0028.797 (0) Googledrive chunked upload: 60.2 % uploaded (8388608)
+0029.772 (0) Googledrive chunked upload: 67.7 % uploaded (9437184)
+0030.758 (0) Googledrive chunked upload: 75.2 % uploaded (10485760)
+0031.734 (0) Googledrive chunked upload: 82.7 % uploaded (11534336)
+0032.720 (0) Googledrive chunked upload: 90.2 % uploaded (12582912)
+0033.694 (0) Googledrive chunked upload: 97.8 % uploaded (13631488)
+0034.664 (0) Googledrive chunked upload: 100 % uploaded (13631488)
+0034.669 (0) OK: Archive backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip uploaded to Google Drive in 13.87 seconds
+0034.672 (0) Recording as successfully uploaded: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip (79579cf1461efa744aa4166e7327bf5c)
+0034.678 (0) Deleting local file: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-themes.zip: OK
+0035.017 (0) Google Drive quota usage: used=1753.9 MB, total=15360 MB, available=13606.1 MB
+0035.021 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0036.373 (0) Googledrive chunked upload: 3.9 % uploaded (1048576)
+0037.299 (0) Googledrive chunked upload: 7.7 % uploaded (2097152)
+0038.351 (0) Googledrive chunked upload: 11.6 % uploaded (3145728)
+0039.410 (0) Googledrive chunked upload: 15.5 % uploaded (4194304)
+0040.392 (0) Googledrive chunked upload: 19.3 % uploaded (5242880)
+0041.344 (0) Googledrive chunked upload: 23.2 % uploaded (6291456)
+0042.786 (0) Googledrive chunked upload: 27.1 % uploaded (7340032)
+0043.763 (0) Googledrive chunked upload: 30.9 % uploaded (8388608)
+0044.779 (0) Googledrive chunked upload: 34.8 % uploaded (9437184)
+0045.760 (0) Googledrive chunked upload: 38.7 % uploaded (10485760)
+0046.805 (0) Googledrive chunked upload: 42.5 % uploaded (11534336)
+0047.784 (0) Googledrive chunked upload: 46.4 % uploaded (12582912)
+0048.815 (0) Googledrive chunked upload: 50.3 % uploaded (13631488)
+0049.767 (0) Googledrive chunked upload: 54.1 % uploaded (14680064)
+0050.787 (0) Googledrive chunked upload: 58 % uploaded (15728640)
+0051.717 (0) Googledrive chunked upload: 61.9 % uploaded (16777216)
+0052.702 (0) Googledrive chunked upload: 65.7 % uploaded (17825792)
+0053.736 (0) Googledrive chunked upload: 69.6 % uploaded (18874368)
+0054.704 (0) Googledrive chunked upload: 73.5 % uploaded (19922944)
+0055.675 (0) Googledrive chunked upload: 77.3 % uploaded (20971520)
+0056.634 (0) Googledrive chunked upload: 81.2 % uploaded (22020096)
+0057.617 (0) Googledrive chunked upload: 85.1 % uploaded (23068672)
+0058.608 (0) Googledrive chunked upload: 88.9 % uploaded (24117248)
+0059.569 (0) Googledrive chunked upload: 92.8 % uploaded (25165824)
+0060.635 (0) Googledrive chunked upload: 96.7 % uploaded (26214400)
+0062.087 (0) Googledrive chunked upload: 100 % uploaded (26214400)
+0062.093 (0) OK: Archive backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip uploaded to Google Drive in 27.07 seconds
+0062.096 (0) Recording as successfully uploaded: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip (d4db8d6aaf1109af0253d09989607cf1)
+0062.104 (0) Deleting local file: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-uploads.zip: OK
+0062.461 (0) Google Drive quota usage: used=1779.7 MB, total=15360 MB, available=13580.3 MB
+0062.462 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-others.zip: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0063.998 (0) Googledrive chunked upload: 100 % uploaded
+0064.003 (0) OK: Archive backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-others.zip uploaded to Google Drive in 1.54 seconds
+0064.006 (0) Recording as successfully uploaded: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-others.zip (e331fbd01806a63c3435bef4f548bc3e)
+0064.010 (0) Deleting local file: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-others.zip: OK
+0064.665 (0) Google Drive quota usage: used=1780.2 MB, total=15360 MB, available=13579.8 MB
+0064.667 (0) backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db.gz: Attempting to upload to Google Drive (into folder id: 0BywwjC8USFCzcmItS2VPODBwaU0)
+0065.948 (0) Googledrive chunked upload: 100 % uploaded
+0065.953 (0) OK: Archive backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db.gz uploaded to Google Drive in 1.28 seconds
+0065.956 (0) Recording as successfully uploaded: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db.gz (b167bce97d91f0241dcfebe520179023)
+0065.962 (0) Deleting local file: backup_2017-10-13-1113_Simpsons_Of_Brighton_d181a6791af1-db.gz: OK
+0065.965 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0065.967 (0) Number of backup sets in history: 1; groups (db): 1
+0065.968 (0) Examining (for databases) backup set with group_id=0, nonce=d181a6791af1, datestamp=1507889630 (Oct 13 2017 10:13:50)
+0065.969 (0) This backup set is the backup set just made, so will not be deleted.
+0065.969 (0) Number of backup sets in history: 1; groups (files): 1
+0065.970 (0) Examining (for files) backup set with nonce=d181a6791af1, datestamp=1507889630 (Oct 13 2017 10:13:50)
+0065.970 (0) This backup set is the backup set just made, so will not be deleted.
+0065.971 (0) This backup set is the backup set just made, so will not be deleted.
+0065.972 (0) This backup set is the backup set just made, so will not be deleted.
+0065.972 (0) This backup set is the backup set just made, so will not be deleted.
+0065.973 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.974 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0065.979 (0) Resume backup (d181a6791af1, 0): finish run
+0065.983 (0) Decremented the semaphore (fd) by 1
+0065.985 (0) Semaphore (fd) unlocked
+0065.986 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0065.992 (0) No email will/can be sent - the user has not configured an email address.
+0065.993 (0) The backup apparently succeeded and is now complete

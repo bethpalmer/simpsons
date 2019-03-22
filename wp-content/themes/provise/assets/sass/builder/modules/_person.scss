@@ -1,0 +1,56 @@
+.tm_pb_builder {
+	#tm_builder_outer_content {
+		.tm_pb_team_member {
+			.tm_pb_team_member_name {
+				margin-top: 21px;
+				margin-bottom: 3px;
+			}
+			img {
+				transition: .3s;
+			}
+
+			&:hover {
+				img {
+					opacity: 0.5;
+				}
+				.tm_pb_member_social_links {
+					opacity: 1;
+				}
+			}
+			.tm_pb_team_member_description {
+				text-align: center;
+			}
+			.tm_pb_member_position {
+				margin: 0;
+			}
+			.tm_pb_member_social_links {
+				position: absolute;
+				top: 30%;
+				left: 50%;
+				transform: translateX(-50%);
+				opacity: 0;
+
+				li a.tm_pb_font_icon {
+					width: 38px;
+					height: 38px;
+					border-radius: 50%;
+					transition: .3s all ease;
+					line-height: 38px;
+					.tm-pb-icon {
+						font-size: 16px;
+					}
+				}
+				li {
+					margin-top: 10px;
+					@include media-breakpoint-up(md) {
+						margin-top: 27px;
+					}
+				}
+			}
+
+			.tm_pb_team_member_image {
+				text-align: center;
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+#tm_builder_outer_content {
+	.tm_pb_promo {
+		.tm_pb_promo_description {
+			padding-bottom: 14px;
+			h3 {
+				margin-bottom: 0;
+			}
+
+			*:last-child {
+				margin-bottom: 0;
+			}
+
+			.tm_pb_more_button.tm_pb_button {
+				margin-left: 0;
+				margin-right: 0;
+				@include media-breakpoint-up(md) {
+					margin: 40px 0 0 28px;
+				}
+			}
+
+			.tm_pb_button.btn-secondary {
+				margin-left: 0;
+				margin-right: 0;
+				@include media-breakpoint-up(md) {
+					margin: 40px 14px 0 24px;
+				}
+			}
+			.promo_button_wrapper {
+				@include media-breakpoint-up(xl) {
+					margin-right: 50px;
+				}
+			}
+		}
+	}
+}

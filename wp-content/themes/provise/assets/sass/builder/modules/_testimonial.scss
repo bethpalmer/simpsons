@@ -1,0 +1,108 @@
+#tm_builder_outer_content {
+
+	div.tm_pb_testimonial {
+		position: relative;
+		margin-top: 40px;
+		@media (min-width: 768px) {
+			margin-top: 0;
+		}
+		.tm_pb_testimonial_description_inner {
+			width: 100% !important;
+		}
+
+		&.tm_pb_testimonial_no_bg{
+			padding: 0;
+		}
+		.tm_pb_testimonial_portrait {
+			width: 135px;
+			height: 135px;
+			border-radius: 50%;
+			float: none;
+			@include media-breakpoint-up(lg) {
+				float: left;
+				margin-right: 40px;
+				margin-top: 16px;
+			}
+		}
+
+		.tm_pb_testimonial_description {
+			padding-left: 56px;
+		}
+
+		.tm_pb_testimonial_author {
+			position: relative;
+			display: inline-block;
+			margin-top: 0;
+		}
+
+		.tm_pb_testimonial_meta{
+			display: inline-block;
+		}
+	}
+
+	.tm_pb_column_1_3, .tm_pb_column_1_4 {
+		div.tm_pb_testimonial {
+			&::before {
+				position: absolute;
+				top: 4px;
+				left: 0;
+				text-align: left;
+				z-index: 1;
+			}
+			.tm_pb_testimonial_portrait {
+				margin-bottom: 30px;
+			}
+
+
+			@include media-breakpoint-up(md) {
+				&::before {
+					top: 4px;
+				}
+				.tm_pb_testimonial_portrait {
+					margin-bottom: 62px;
+				}
+			}
+		}
+	}
+
+	.tm_pb_column_1_2, .tm_pb_column_4_4 {
+		div.tm_pb_testimonial {
+			&::before {
+				position: absolute;
+				top: 160px;
+				left: 0;
+				text-align: left;
+				z-index: 1;
+			}
+
+			.tm_pb_testimonial_portrait {
+				margin-right: 40px;
+				display: inline-block;
+			}
+
+			.tm_pb_testimonial_description {
+				display: block;
+				overflow: hidden;
+				@include media-breakpoint-up(lg) {
+					display: inline-block;
+					position: relative;
+				}
+			}
+		}
+	}
+}
+
+#tm_builder_outer_content div.tm_pb_testimonial.tm_pb_text_align_left .tm_pb_testimonial_portrait{
+	margin-right: 0;
+	margin-left: 55px;
+}
+
+#tm_builder_outer_content div.tm_pb_testimonial.tm_pb_text_align_center .tm_pb_testimonial_portrait{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+#tm_builder_outer_content .tm_pb_testimonial.tm_pb_text_align_center .tm_pb_testimonial_portrait {
+	float: none;
+}

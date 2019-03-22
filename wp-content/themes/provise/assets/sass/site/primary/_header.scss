@@ -1,0 +1,57 @@
+.home:not(.breadcrumbs-visible) .site-header.transparent{
+	.header-wrapper{
+		position: relative;
+		.header-container{
+			@media (min-width: 1200px) {
+				position: absolute;
+				width: 100%;
+				top:0;
+				background-image: none;
+				z-index: 2;
+			}
+		}
+	}
+}
+
+
+.header-container {
+	padding: 0 15px;
+	background-size: cover;
+	@media (max-width: 767px) {
+		.header-container_wrap.container{
+			max-width: inherit;
+		}
+	};
+	@include media-breakpoint-up(xl) {
+		padding: 0 88px;
+		&.isStuck {
+			position: fixed;
+			z-index: 1000;
+			right: 0;
+			left: 0;
+		}
+	}
+	.container & {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+}
+
+.site-description,
+.widget-about__tagline {
+	@include font-size(0.75);
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.widget-about__tagline{
+	@include font-size(0.625);
+}
+
+@import "header/layout-default";
+@import "header/layout-centered";
+@import "header/layout-minimal";
+@import "header/top-panel";
+@import "header/logo";

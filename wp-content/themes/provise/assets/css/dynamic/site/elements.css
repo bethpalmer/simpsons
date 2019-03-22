@@ -1,0 +1,89 @@
+/* #Elements */
+blockquote {
+	font-style: $blockquote_font_style;
+	font-weight: $blockquote_font_weight;
+	font-size: @font_size($blockquote_font_size, multiple, ceil, 0.6)px;
+	line-height: $blockquote_line_height;
+	font-family: $blockquote_font_family;
+	letter-spacing: $blockquote_letter_spacing;
+	color: $blockquote_color;
+}
+
+@media (min-width: 992px) {
+	blockquote {
+		font-size: $blockquote_font_size{px};
+	}
+}
+
+blockquote cite {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	color: $regular_accent_color_1;
+}
+
+blockquote cite::before {
+	background: $regular_accent_color_1;
+}
+
+blockquote a:hover {
+	color: $regular_link_color;
+}
+
+blockquote::before {
+	color: $regular_accent_color_1;
+}
+
+code {
+	color: $invert_text_color;
+	background: $regular_accent_color_1;
+}
+
+.post-content ul li:before,
+.comment-content ul li:before,
+.entry-content ul li:before,
+#tm_builder_outer_content .tm_pb_text ul li:before,
+#tm_builder_outer_content .tm_pb_blurb_content ul li:before,
+#tm_builder_outer_content .tm_pb_slide_content ul li:before,
+#tm_builder_outer_content ul.tm_pb_pricing > li > span ul li:before,
+#tm_builder_outer_content .tm_pb_testimonial_description_inner ul li:before,
+#tm_builder_outer_content .tm_pb_promo_description ul li:before,
+#tm_builder_outer_content .tm_pb_toggle_content ul li:before,
+#tm_builder_outer_content .tm_pb_tab ul li:before,
+#tm_builder_outer_content .tm_pb_team_member_description ul li:before,
+#tm_builder_outer_content .tm_pb_toggle_content ul li:before,
+.single-cherry-services .content_wrap ul li:before{
+	background-color: $regular_accent_color_1;
+}
+
+.invert .post-content ul li:before,
+.invert .comment-content ul li:before,
+.invert .entry-content ul li:before,
+#tm_builder_outer_content .invert .tm_pb_text ul li:before,
+#tm_builder_outer_content .invert .tm_pb_blurb_content ul li:before,
+#tm_builder_outer_content .invert .tm_pb_slide_content ul li:before,
+#tm_builder_outer_content .invert ul.tm_pb_pricing > li > span ul li:before,
+#tm_builder_outer_content .invert .tm_pb_testimonial_description_inner ul li:before,
+#tm_builder_outer_content .invert .tm_pb_promo_description ul li:before,
+#tm_builder_outer_content .invert .tm_pb_toggle_content ul li:before,
+#tm_builder_outer_content .invert .tm_pb_tab ul li:before,
+#tm_builder_outer_content .invert .tm_pb_team_member_description ul li:before,
+#tm_builder_outer_content .invert .tm_pb_toggle_content ul li:before{
+	background-color: $invert_text_color;
+}
+
+.invert ul li{
+	color: $regular_accent_color_1;
+}
+
+.tm-pb-contact-message,
+.invert .tm-pb-contact-message ul li{
+	color: $invert_text_color;
+}
+
+
+
+.entry-content > ul > li,
+.entry-content > ol > li,
+.single-cherry-services .content_wrap ul li{
+	color: $regular_accent_color_1;
+}

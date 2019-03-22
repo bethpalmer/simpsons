@@ -1,0 +1,32 @@
+#tm_builder_outer_content a.tm_pb_button,
+#tm_builder_outer_content a.tm_pb_button:hover,
+#tm_builder_outer_content button.tm_pb_button,
+#tm_builder_outer_content button.tm_pb_button:hover,
+.btn-lg {
+	@extend .btn;
+	&::after {
+		content: ""!important;
+	}
+}
+
+#tm_builder_outer_content div.tm_contact_bottom_container {
+	overflow: visible;
+	text-align: center;
+	float: none;
+	display: inline-block;
+	position: relative;
+}
+
+#tm_builder_outer_content .no_float_button .tm_contact_bottom_container {
+	float: none;
+	.tm_pb_button {
+		margin: 0;
+	}
+}
+
+#tm_builder_outer_content .tm_pb_button {
+	margin-bottom: 20px;
+	@include media-breakpoint-up(md) {
+		margin-bottom: 0;
+	}
+}

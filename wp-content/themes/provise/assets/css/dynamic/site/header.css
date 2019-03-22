@@ -1,0 +1,58 @@
+/* #Header */
+.header-container {
+	background-color: $header_bg_color;
+	background-repeat: $header_bg_repeat;
+	background-position: $header_bg_position_x top;
+	background-attachment: $header_bg_attachment;
+}
+
+.site-header {
+	background-color: $header_bg_color;
+}
+
+.home .site-header.transparent .header-container{
+	background-color: @alpha($regular_accent_color_2, 60);
+}
+
+/* ##Logo */
+.site-logo {
+	font-style: $header_logo_font_style;
+	font-weight: $header_logo_font_weight;
+	font-size: $header_logo_font_size{px};
+	font-family: @font_family( $header_logo_font_family );
+}
+
+.site-branding .site-description{
+	color:$invert_text_color;
+}
+
+.site-logo__link, .site-logo__link:hover {
+	color: $invert_text_color;
+}
+
+/* ##Top Panel */
+.top-panel {
+	background-color: $top_panel_bg;
+}
+.contact-block__inner,
+.contact-block__inner a,
+.top-panel .set-menu a:hover,
+.top-panel__menu .menu-item a:hover{
+	color: $invert_text_color;
+}
+
+/* ##Header Message */
+.header__message .info-block a[href^="tel:"] {
+	font-family: $breadcrumbs_font_family;
+	font-weight: $breadcrumbs_font_weight;
+	font-style: $breadcrumbs_font_style;
+	color: $regular_accent_color_2;
+}
+
+.header__message .info-block a[href^="tel:"]:hover {
+	color: $regular_link_color;
+}
+
+.header__message .info-block i {
+	color: $regular_accent_color_1;
+}
